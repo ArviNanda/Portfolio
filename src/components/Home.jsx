@@ -108,7 +108,7 @@ const Home = () => {
             <hr className="my-1 border-1 border border-black my-3" />
 
             <div className="d-flex align-items-center my-4">
-              <h4 className="fw-bold me-4">Follow Me :</h4>
+              <h4 className="fw-bold me-4">Social Media :</h4>
               <div className="d-flex gap-4 fs-3">
                 <a
                   className="text-decorations-none follow"
@@ -134,23 +134,14 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="col-lg-6 col-md-12">
-            <Carousel fade indicators={false} controls={true} interval={4000}>
-              <Carousel.Item>
-                <img
-                  src="/Illustration_1.png"
-                  className="d-block w-100 rounded-3 shadow-lg"
-                  alt="Illustration 1"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  src="/Illustration_2.jpeg"
-                  className="d-block w-100 rounded-3 shadow-lg"
-                  alt="Illustration 2"
-                />
-              </Carousel.Item>
-            </Carousel>
+          <div className="col-lg-6 col-md-12 text-center">
+            <div className="profile-image-wrapper">
+              <img
+                src="/arvi-profile.jpeg"
+                alt="Arvi Muhammad"
+                className="profile-image"
+              />
+            </div>
           </div>
         </div>
       </div>
